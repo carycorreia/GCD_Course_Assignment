@@ -36,7 +36,19 @@ To do this setup just type this into your R session and substiture your account_
 
  _setwd("/Users/yourName")_
 
-### Code Pseudo-Code and Walk-thru
+### Pseudo-Code and Walk-thru
+The project objectives are all achieved but my code works through the objectives in a different order.
+Please note:  the project objectives makes no mention that your code has to achieve the objectives in a specific order.
+
+## Program pseudo-code:
+  1. Prepare the directory structure
+  2. Prep the test data set
+  3. Prep the train data set
+  4. Merge the two data sets together
+  5. Create the average_measures dataset
+  6. Write the final file to disk
+ 
+
 
  
 
