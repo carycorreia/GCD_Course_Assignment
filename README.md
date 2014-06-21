@@ -28,5 +28,8 @@ The data used in this project is linked here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ### Setting up the code
+The R code was designed on a Mac computer using OSX 10.93 with R v3.1 installed
+To run simply ensure your working directory is setup as follows:
+  _setwd("/Users/yourName")_
 
 
