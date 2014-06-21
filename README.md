@@ -23,4 +23,10 @@ The following are the objectives of the course project:
 
 Please note that these objectives are NOT the exact steps that were followed in creating the work flow for this project.  Please see the section regarding Code Walk-Through for the psuedo-code used.
 
+The data used in this project is linked here:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+### Setting up the code
+
 
