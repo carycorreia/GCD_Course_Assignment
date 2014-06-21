@@ -34,7 +34,9 @@ To run simply ensure your working directory is setup as follows:
  _setwd("/Users/yourName")_
  
  The load the program into R 
+ 
  Select all of the code 
+ 
  Run the code 
  
 
