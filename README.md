@@ -71,7 +71,7 @@ Steps 3a-3d - this is an exact duplicate of steps 2...only now we do it for the 
 At the end of Step 3:
 - we have a complete and tidy version of the training data
 - trainData: 7,352 rows 69 variables
-- note:  there is a _SubjectName_ field, an _ActivityType_ field and a "DataSet" field
+- note:  there is a _SubjectName_ field, an _ActivityType_ field and a _DataSet_ field
          there are an additional 66 fields that represent mean or std dev measurements
          I did not include meanFreq() measures as these weren't actual means
  
