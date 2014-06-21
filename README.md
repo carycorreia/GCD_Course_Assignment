@@ -32,10 +32,9 @@ The R code was designed on a Mac computer using OSX 10.93 with R v3.1 installed
 To run simply ensure your working directory is setup as follows:
 
  _setwd("/Users/yourName")_
- 
- Then load the program into R 
- Select all of the code 
- Run the code 
+Then load the program into R 
+Select all of the code 
+Run the code 
  
 
 
