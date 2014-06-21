@@ -13,7 +13,7 @@ One of the most exciting areas in all of data science right now is wearable comp
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-The following are the objectives of the course project: 
+The following are the objectives of the course project:
  1. create one R script that does the follow-
  2. Merges the training and the test sets to create one data set.
  3. Extracts only the measurements on the mean and standard deviation for each measurement. 
