@@ -29,12 +29,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ### Setting up the code
 The R code was designed on a Mac computer using OSX 10.93 with R v3.1 installed
-To run simply ensure your working directory is setup as follows:
+The program will take your base directory (this is the default working directory on your computer) and then look for or go to a directory called "GettingAndCleaningDataCourseProject/"
+
+I prefer to keep this new directory tied to my baseline directory which is equivalent to this "/Users/carycorreia"
+To do this setup just type this into your R session and substiture your account_name to "yourName".  See the example  below:
 
  _setwd("/Users/yourName")_
-Then load the program into R 
-Select all of the code 
-Run the code 
+
  
 
 
