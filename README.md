@@ -29,12 +29,14 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ### Setting up the code
 The R code was designed on a Mac computer using OSX 10.93 with R v3.1 installed
-The program will take your base directory (this is the default working directory on your computer) and then look for or go to a directory called "GettingAndCleaningDataCourseProject/"
+The program will take your base directory (this is the default working directory on your computer) and then look for or go to a directory called "/GettingAndCleaningDataCourseProject/"
 
 I prefer to keep this new directory tied to my baseline directory which is equivalent to this "/Users/carycorreia"
 To do this setup just type this into your R session and substiture your account_name to "yourName".  See the example  below:
 
  _setwd("/Users/yourName")_
+
+### Code Pseudo-Code and Walk-thru
 
  
 
