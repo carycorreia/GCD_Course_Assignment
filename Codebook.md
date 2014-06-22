@@ -6,14 +6,15 @@ This is a markdown Codebook of the final file that was created by the program ru
 The purpose of the code was to take the following inputs, and create a tidy data set from it:
   - test inputs:
 ```
-    -subject_test.txt --> test subject data on 9 of the participants
-    -Y_test.txt       --> activity test data...note: these are coded variables from activities 1 to 6
-    -X_test.txt       --> measured readings from the participants  2,947 obs across 66 measures
+    subject_test.txt --> test subject data on 9 of the participants
+    Y_test.txt       --> activity test data...note: these are coded variables from activities 1 to 6
+    X_test.txt       --> measured readings from the participants  2,947 obs across 66 measures
 ```
   - train inputs:
-``` -subject_train.txt--> test subject data on 21 of the participants
-    -Y_train.txt      --> activity train data..note:  these are coded variable from activities 1 to 6
-    -X_train.txt      --> measure readings from teh participants  7,352 obs across 66 measures
+``` 
+    subject_train.txt--> test subject data on 21 of the participants
+    Y_train.txt      --> activity train data..note:  these are coded variable from activities 1 to 6
+    X_train.txt      --> measure readings from teh participants  7,352 obs across 66 measures
 ```
 
 
