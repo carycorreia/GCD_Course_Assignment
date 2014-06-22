@@ -101,7 +101,7 @@ Step 6 - Write the table to a file on the computer
   - simple write.table command to save the file as a txt file was performed
 At the end of Step 6:
 - a "average_sensor_measures.txt" file is saved to the computer
-====================================================================================================================
+
 
  
 
