@@ -58,7 +58,7 @@ The output files that are produced by the code are called:
 
 =================================
 
-#### How the code works
+### How the code works
 For a detailed walk-thru of the code please consult the README.md file located in the github repository (carycorreia/GCD_Course_Assignment)
 
 The basic program flow is as follows:
