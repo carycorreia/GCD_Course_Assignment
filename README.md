@@ -69,11 +69,16 @@ Please note:  the project objectives makes no mention that your code has to achi
  - quick references to all sub-folders have been created
  - all label files have been reworked so that the names are meaningful
 ```
-#### Steps 2a-2d - Prep the test data set
+#### Steps 2a-2d - Prep the test data set: 
+
   2a - Read in all 3 test data files...note I renamed them to be subject, readings and activities
+  
   2b - Fix all columns using regex in the subject and readings tables
+  
   2c - Fix the activity_test table only this time we build the equivalent of a vlookup (use plyr and join)
+  
   2d - Assemble the final _testData_ table 
+  
 #### At the end of step 2:
 ```
 - we have a complete and tidy version of the testing data
