@@ -134,11 +134,11 @@ Please note:  the project objectives makes no mention that your code has to achi
 - a "average_sensor_measures.txt" file is saved to the computer
 ```
 ============================================================================================================
-## Original README.txt- these note are take verbatim from the data files
+### Original README.txt- these note are take verbatim from the data files
 
 ==================================================================
-Human Activity Recognition Using Smartphones Dataset
-Version 1.0
+#### Human Activity Recognition Using Smartphones Dataset
+#### Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
