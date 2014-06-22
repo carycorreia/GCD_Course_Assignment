@@ -89,12 +89,12 @@ The basic program flow is as follows:
         - the "DataSet" column holds a "train" or "test" flag which tells an analyst where each row of data came from
 ```
 
-####  5. Create the final tidy data set which gives you the average sensor readings for each subject & activity type
+####  5. Create final tidy data set: the average sensor readings for each subject & activity type
   - note that there are 30 subjects X 6 activities = 180 observations with 66 average readings
   - note that in this file I decided to drop the "DataSet" column which yields only 68 columns in the final dataset
   - final file is called "tidyData2 (data frame)
 
-####  6. Save the final file "tidayData2" to disk
+####  6. Save the final file "tidyData2" to disk
   - the final file is called "average_sensor_measures.txt"
   - the _carycorreia\GCD_Course_Assignment repository has a copy of this output file
   - I also opted to store it as a .csv document
