@@ -31,7 +31,7 @@ The output files that are produced by the code are called:
 ##### The subject_test file lists each participant by number:
   - no recoding was deemed necessary as we only had a number given (so data was kept as is)
       
-##### The activity data (Y_test) lists the data from 1-6:
+##### The activity data (Y train and test files) lists the data from 1-6:
   - I opted to recode the 1-6 activity types using the matching key given in the "activities_labels.txt) file
   - I used 'ply' and 'join' to perform the equivalent of a vlookup to recode the table (lines 67-70)
   - recode file looks like:
