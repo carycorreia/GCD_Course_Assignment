@@ -120,7 +120,7 @@ Please note:  the project objectives makes no mention that your code has to achi
 
 ####At the end of step 5:
 ```
--dataset for the average of the readings for each subject and activity type
+- dataset for the average of the readings for each subject and activity type
 - tidyData2: 180 rows 68 variables
 - note:  there exactly 180 rows which corresponds to our 30 test subjects with 6 activities
          there are now exaclty 68 rows because I decided to drop the _DataSet_ column
