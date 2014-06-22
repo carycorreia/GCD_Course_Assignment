@@ -22,7 +22,7 @@ The subject_test file lists each participant by number:
 The activity data (Y_test) lists the data from 1-6:
       - I opted to recode the 1-6 activity types using the matching key given in the "activities_labels.txt) file
       - file looks like:
-      ```
+```
       V1	V2
     1	1	WALKING
     2	2	WALKING_UPSTAIRS
@@ -30,7 +30,7 @@ The activity data (Y_test) lists the data from 1-6:
     4	4	SITTING
     5	5	STANDING
     6	6	LAYING
-    ```
+```
 #### How the code works
 For a detailed walk-thru of the code please consult the README.md file located in the github repository (carycorreia/GCD_Course_Assignment)
 
