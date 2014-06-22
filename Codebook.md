@@ -60,8 +60,8 @@ The output files that are produced by the code are called:
 ### Final naming conventions used in the file
   - Column 1:       SubjectNumber --> each subject's test number is listed here
   - Column 2:       ActivityType  --> each activity type is listed here..nb:  the coded value now has the actual name
-  - Column 3 to 68: Each column has the recoded name for the measure
-                    I opted to not append "average of " to each field in order to save space & improve readability
+  - Column 3 to 68:               -->Each column has the recoded name for the measure
+                                     I opted to not append "average of " to each field in order to save space & improve readability
 
 =================================
 
