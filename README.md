@@ -75,7 +75,7 @@ Please note:  the project objectives makes no mention that your code has to achi
   1. a - Prep the data structure 
   1. b - Download and unzip the files 
   1. c - Setup the directories, get the label files, make the labels descriptive
- 
+
 #### At the end of step 1: 
 ```
  - all files have been downloaded and unzipped
@@ -87,7 +87,7 @@ Please note:  the project objectives makes no mention that your code has to achi
   2. b - Fix all columns using regex in the subject and readings tables 
   2. c - Fix the activity_test table only this time we build the equivalent of a vlookup (use plyr and join) 
   2. d - Assemble the final _testData_ table 
-  
+
 #### At the end of step 2:
 ```
 - we have a complete and tidy version of the testing data
