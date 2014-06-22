@@ -77,9 +77,7 @@ Please note:  the project objectives makes no mention that your code has to achi
 - testData: 2,947 rows 69 variables
 ```
 #### Steps 3a-3d - this is an exact duplicate of steps 2
-```
    -only now we do it for the _train_ dataset
-```
 #### At the end of step 3:
 ```
 - we have a complete and tidy version of the training data
