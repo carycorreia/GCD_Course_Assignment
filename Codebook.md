@@ -32,7 +32,7 @@ The output files that are produced by the code are called:
   - no recoding was deemed necessary as we only had a number given (so data was kept as is)
       
 ##### The activity data (Y train and test files) lists each activity as a coded number from 1 to 6:
-  - I opted to recode the 1-6 activity types using the matching key given in the "activities_labels.txt) file
+  - I opted to recode the 1-6 activity types using the matching key given in the "activities_labels.txt file
   - I used 'ply' and 'join' to perform the equivalent of a vlookup to recode the table (lines 67-70)
   - recode file looks like:
       
