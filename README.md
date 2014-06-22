@@ -67,15 +67,13 @@ Steps 2a-2d - Prep the test data set
   2a - Read in all 3 test data files...note I renamed them to be subject, readings and activities
   2b - Fix all columns using regex in the subject and readings tables
   2c - Fix the activity_test table only this time we build the equivalent of a vlookup (use plyr and join)
-  2d - Assemble the final _testData_ table
-  
-At the end of step 2:
+  2d - Assemble the final _testData_ table 
+#### At the end of step 2:
 - we have a complete and tidy version of the testing data
 - testData: 2,947 rows 69 variables
  
-Steps 3a-3d - this is an exact duplicate of steps 2...only now we do it for the _train_ dataset
-
-At the end of Step 3:
+Steps 3a-3d - this is an exact duplicate of steps 2...only now we do it for the _train_ dataset 
+#### At the end of Step 3:
 - we have a complete and tidy version of the training data
 - trainData: 7,352 rows 69 variables
 - note:  there is a _SubjectName_ field, an _ActivityType_ field and a _DataSet_ field
@@ -85,8 +83,7 @@ At the end of Step 3:
 Step 4- Merge the two datasets together
   - the two files are then merged together
   - note I decided to use the merge command to just stack the two datasets on top of each other
-  
-At the end of Step 4:
+#### At the end of Step 4:
 - we have a complete and tidy version of both datasets added together
 - tidyData1: 10,299 rows 69 variables
 
@@ -94,8 +91,7 @@ At the end of Step 4:
 Step 5 - Create the average_measures dataset
   - for each Subject and Activity the average of each reading was created
   - I opted to use the _reshape_ package to first melt then dcast the data into the final table
-  
-At the end of Step 5:
+#### At the end of Step 5:
 - we have a complete and tidy dataset for the average of the readings for each subject and activity type
 - tidyData2: 180 rows 68 variables
 - note:  there exactly 180 rows which corresponds to our 30 test subjects with 6 activities
@@ -103,8 +99,7 @@ At the end of Step 5:
 
 Step 6 - Write the table to a file on the computer
   - simple write.table command to save the file as a txt file was performed
-  - 
-At the end of Step 6:
+#### At the end of Step 6:
 - a "average_sensor_measures.txt" file is saved to the computer
 
 
