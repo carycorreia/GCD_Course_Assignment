@@ -1,5 +1,14 @@
 ##GCD_Course_Assignment
 =====================
+
+### Table of Contents:
+ 1. Introduction
+ 2. Overview
+ 3. Course Project Objectives
+ 4. Setting up the code on your computer
+ 5. Pseudo Code and Walk Through
+ 6. Original README.txt notes
+
 ### Introduction:
 This repository houses the programming assignment for Coursera's Getting and Cleaning Data course project.
 The repository has the following items enclosed:
@@ -13,6 +22,7 @@ The repository has the following items enclosed:
 One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represents data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+=====================
 
 ### The following are the objectives of the course project:
  1. create one R script that does the follow
@@ -30,7 +40,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 The data used in this project is linked here:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-
+=======================
 
 ### Setting up the code
 The R code was designed on a Mac computer using OSX 10.93 with R v3.1 installed
@@ -41,6 +51,7 @@ I prefer to keep this new directory tied to my baseline directory which is equiv
 To do this setup just type this into your R session and substiture your account_name to "yourName".  See the example  below: (_note:  if your using a windows machine simply substitute the "/" for a "\"_)
 
  _setwd("/Users/yourName")_
+=========================
 
 ### Pseudo-Code and Walk-thru
 The project objectives are all achieved but my code works through the objectives in a different order.
@@ -52,7 +63,9 @@ Please note:  the project objectives makes no mention that your code has to achi
   3. Prep the train data set
   4. Merge the two data sets together
   5. Create the average_measures dataset
-  6. Write the final file to disk
+  6. Write the final file to disk 
+
+===========================
 
 ### Detailed walk thru
 #### Steps 1a-1c - Prepare the directory structures:
