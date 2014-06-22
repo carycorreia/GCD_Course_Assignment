@@ -127,7 +127,8 @@ Please note:  the project objectives makes no mention that your code has to achi
          there are now exaclty 68 rows because I decided to drop the _DataSet_ column
 - note2: I purposely decided not to append "Average reading for " to each field name on purpose
          The name of the file clearly lists that these are the average_sensor measures
-         The codebook takes this into account where I list each field name but clearly state that each reading is an              "Average reading for..."
+         The codebook takes this into account where I list each field name but clearly state that 
+         each reading is an "Average reading for..." each variable
 ```
 #### Step 6 - Write the table to a file on the computer
   - simple write.table command to save the file as a txt file was performed
