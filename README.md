@@ -29,13 +29,14 @@ Please note that these objectives are NOT the exact steps that were followed in 
 The data used in this project is linked here:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-'''
+
 
 ### Setting up the code
 The R code was designed on a Mac computer using OSX 10.93 with R v3.1 installed
 The program will take your base directory (this is the default working directory on your computer) and then look for or go to a directory called "/GettingAndCleaningDataCourseProject/"
 
 I prefer to keep this new directory tied to my baseline directory which is equivalent to this "/Users/carycorreia"
+
 To do this setup just type this into your R session and substiture your account_name to "yourName".  See the example  below:
 
  _setwd("/Users/yourName")_
@@ -77,7 +78,7 @@ At the end of Step 3:
 - trainData: 7,352 rows 69 variables
 - note:  there is a _SubjectName_ field, an _ActivityType_ field and a _DataSet_ field
          there are an additional 66 fields that represent mean or std dev measurements
-         I did not include meanFreq() measures as these weren't actual means
+         I did not include meanFreq() measures as these are not actual means but counts of means
  
 Step 4- Merge the two datasets together
   - the two files are then merged together
@@ -100,6 +101,7 @@ Step 6 - Write the table to a file on the computer
   - simple write.table command to save the file as a txt file was performed
 At the end of Step 6:
 - a "average_sensor_measures.txt" file is saved to the computer
+====================================================================================================================
 
  
 
