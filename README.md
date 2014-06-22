@@ -53,13 +53,13 @@ Please note:  the project objectives makes no mention that your code has to achi
   4. Merge the two data sets together
   5. Create the average_measures dataset
   6. Write the final file to disk
-  
+
 ### Detailed walk thru
 Steps 1a-1c - Prepare the directory structures
   1a - Prep the data structure
   1b - Download and unzip the files
   1c - Setup the directories, get the label files, make the labels descriptive
-At the end of step 1:
+#### At the end of step 1:
  - all files have been downloaded and unzipped
  - quick references to all sub-folders have been created
  - all label files have been reworked so that the names are meaningful
@@ -90,7 +90,6 @@ Step 4- Merge the two datasets together
 - we have a complete and tidy version of both datasets added together
 - tidyData1: 10,299 rows 69 variables
 
- 
 Step 5 - Create the average_measures dataset
   - for each Subject and Activity the average of each reading was created
   - I opted to use the _reshape_ package to first melt then dcast the data into the final table
