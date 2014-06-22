@@ -55,11 +55,11 @@ Please note:  the project objectives makes no mention that your code has to achi
   6. Write the final file to disk
 
 ### Detailed walk thru
-#### Steps 1a-1c - Prepare the directory structures
-  1a - Prep the data structure
-  1b - Download and unzip the files
-  1c - Setup the directories, get the label files, make the labels descriptive
-
+#### Steps 1a-1c - Prepare the directory structures 
+  1a - Prep the data structure 
+  1b - Download and unzip the files 
+  1c - Setup the directories, get the label files, make the labels descriptive 
+ 
 #### At the end of step 1:
 ```
  - all files have been downloaded and unzipped
