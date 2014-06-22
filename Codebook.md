@@ -1,7 +1,7 @@
 ###average_sensors_measures.txt CodeBook
 ========================================================
 
-#### Overview
+### Overview
 This is a markdown Codebook of the final file that was created by the program run_analysis.R.
 
 The purpose of the code was to take the following inputs, and create a tidy data set from it:
