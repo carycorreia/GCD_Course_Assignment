@@ -1,7 +1,7 @@
 ##average_sensors_measures.txt CodeBook
 ========================================================
 
-### This is an R Markdown document that describes the output dataset that is run from the program run_analysis.R.
+###$ This is an R Markdown document that describes the output dataset that is run from the program run_analysis.R.
 ========================================================
 | Variable Name                | Variable Description                                                                                       | Format  | Range              | Units          |
 |------------------------------|------------------------------------------------------------------------------------------------------------|---------|--------------------|----------------|
