@@ -63,10 +63,10 @@ The basic program flow is as follows:
         - X_test.txt becomes readings.test
         - Y_test.txt becomes activity.test
 ```
-      - use regex to clean up names and then assign the cleaned up names to all datasets
-      - use regex and grep1 to pair down the readings data so it only contains mean and std dev readings
-      - note meanFreq() measures were not inputted because these are frequency (count) measures
-      - Combine all data together to create a tidy data set for test data...called it testData (data frame)
+  - use regex to clean up names and then assign the cleaned up names to all datasets
+  - use regex and grep1 to pair down the readings data so it only contains mean and std dev readings
+  - note meanFreq() measures were not inputted because these are frequency (count) measures
+  - Combine all data together to create a tidy data set for test data...called it testData (data frame)
   3. Prep the train data set
       - I followed the exact same methodology as laid out in step 2
       - Final file is labelled....trainData (data frame)
