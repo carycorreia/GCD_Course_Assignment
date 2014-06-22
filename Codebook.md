@@ -25,7 +25,8 @@ The subject_test file lists each participant by number:
       
 The activity data (Y_test) lists the data from 1-6:
       - I opted to recode the 1-6 activity types using the matching key given in the "activities_labels.txt) file
-      - file looks like:
+      - I used 'ply' and 'join' to perform the equivalent of a vlookup to recode the table (lines 67-70)
+      - recode file looks like:
 ```
       V1	V2
     1	1	WALKING
@@ -35,6 +36,18 @@ The activity data (Y_test) lists the data from 1-6:
     5	5	STANDING
     6	6	LAYING
 ```
+To make the code easier to read I decided to relabel the files in my code as follows:
+
+```
+    Y files -->activity files (activity_test and activity train)
+    X files -->reading files  (readings_test and readings train)
+```
+Because the requirement was to keep only column measures on mean() and std() measures I reduced the columns:
+    - this was accomplished using grep1 and a regex filter lines 64 and 86
+    - note I decided not to keep meanFreq() columns as these were not actual mean readings but frequency readings
+    - The number of mean() and std() columns is only 66 which was verfied manually by reviewing the features.txt file
+=================================
+
 #### How the code works
 For a detailed walk-thru of the code please consult the README.md file located in the github repository (carycorreia/GCD_Course_Assignment)
 
