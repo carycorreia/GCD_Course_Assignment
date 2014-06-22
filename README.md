@@ -78,7 +78,7 @@ Steps 3a-3d - this is an exact duplicate of steps 2...only now we do it for the 
 - trainData: 7,352 rows 69 variables
 - note:  there is a _SubjectName_ field, an _ActivityType_ field and a _DataSet_ field
          there are an additional 66 fields that represent mean or std dev measurements
-         I did not include meanFreq() measures as these are not actual means but counts of means
+         I did not include meanFreq() measures as these are not actual means but counts of means 
  
 Step 4- Merge the two datasets together
   - the two files are then merged together
