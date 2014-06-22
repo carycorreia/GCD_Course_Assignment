@@ -1,4 +1,4 @@
-####average_sensors_measures.txt CodeBook
+##average_sensors_measures.txt CodeBook
 ========================================================
 
 ### This is an R Markdown document that describes the output dataset that is run from the program run_analysis.R.
