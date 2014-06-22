@@ -72,8 +72,10 @@ The basic program flow is as follows:
       - since the two files or partial datasets of the entire dataset it was just necessary to combine both sets of data
       - decided to use the merge command would work fairly easily (see code for details)
       - final file which is the tidy data set for the full file --> tidyData1 (10,299 obs across 69 variables)
-        - note there is a "SubjectName", "ActivityType", "DataSet" & 66 other column measures in the file 
+```
+        - note there is a "SubjectName", "ActivityType", "DataSet" & 66 other column measures in the file
         - the "DataSet" column holds a "train" or "test" flag which tells an analyst where each row of data came from
+```
   5. Create the final tidy data set which gives you the average sensor readings for each subject & activity type
       - note that there are 30 subjects X 6 activities = 180 observations with 66 average readings
       - note that in this file I decided to drop the "DataSet" column which yields only 68 columns in the final dataset
