@@ -55,7 +55,7 @@ Please note:  the project objectives makes no mention that your code has to achi
   6. Write the final file to disk
 
 ### Detailed walk thru
-Steps 1a-1c - Prepare the directory structures
+#### Steps 1a-1c - Prepare the directory structures
   1a - Prep the data structure
   1b - Download and unzip the files
   1c - Setup the directories, get the label files, make the labels descriptive
@@ -64,7 +64,7 @@ Steps 1a-1c - Prepare the directory structures
  - quick references to all sub-folders have been created
  - all label files have been reworked so that the names are meaningful
 
-Steps 2a-2d - Prep the test data set
+#### Steps 2a-2d - Prep the test data set
   2a - Read in all 3 test data files...note I renamed them to be subject, readings and activities
   2b - Fix all columns using regex in the subject and readings tables
   2c - Fix the activity_test table only this time we build the equivalent of a vlookup (use plyr and join)
@@ -72,8 +72,9 @@ Steps 2a-2d - Prep the test data set
 #### At the end of step 2:
 - we have a complete and tidy version of the testing data
 - testData: 2,947 rows 69 variables
- 
-Steps 3a-3d - this is an exact duplicate of steps 2...only now we do it for the _train_ dataset
+
+#### Steps 3a-3d - this is an exact duplicate of steps 2
+   -only now we do it for the _train_ dataset
 
 #### At the end of step 3:
 - we have a complete and tidy version of the training data
@@ -81,8 +82,8 @@ Steps 3a-3d - this is an exact duplicate of steps 2...only now we do it for the 
 - note:  there is a _SubjectName_ field, an _ActivityType_ field and a _DataSet_ field
          there are an additional 66 fields that represent mean or std dev measurements
          I did not include meanFreq() measures as these are not actual means but counts of means 
- 
-Step 4- Merge the two datasets together
+
+#### Step 4- Merge the two datasets together
   - the two files are then merged together
   - note I decided to use the merge command to just stack the two datasets on top of each other 
 
@@ -90,7 +91,7 @@ Step 4- Merge the two datasets together
 - we have a complete and tidy version of both datasets added together
 - tidyData1: 10,299 rows 69 variables
 
-Step 5 - Create the average_measures dataset
+#### Step 5 - Create the average_measures dataset
   - for each Subject and Activity the average of each reading was created
   - I opted to use the _reshape_ package to first melt then dcast the data into the final table
 
@@ -100,7 +101,7 @@ Step 5 - Create the average_measures dataset
 - note:  there exactly 180 rows which corresponds to our 30 test subjects with 6 activities
          there are now exaclty 68 rows because I decided to drop the _DataSet_ column
 
-Step 6 - Write the table to a file on the computer
+#### Step 6 - Write the table to a file on the computer
   - simple write.table command to save the file as a txt file was performed
 
 #### At the end of step 6:
