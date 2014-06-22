@@ -50,9 +50,10 @@ The program will take your base directory (this is the default working directory
 
 I prefer to keep this new directory tied to my baseline directory which is equivalent to this "/Users/carycorreia"
 
-To do this setup just type this into your R session and substiture your account_name to "yourName".  See the example  below: (_note:  if your using a windows machine simply substitute the "/" for a "\"_)
+To do this setup just type this into your R session and substiture your account name to "yourName".  See the example  below: (note:  if your using a windows machine simply substitute the "/" for a "\")
 
- _setwd("/Users/yourName")_
+#####_setwd("/Users/yourName")_
+
 =========================
 
 ### Pseudo-Code and Walk-thru
