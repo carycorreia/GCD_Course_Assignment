@@ -18,6 +18,13 @@ The purpose of the code was to take the following inputs, and create a tidy data
     X_train.txt      --> measure readings from teh participants  7,352 obs across 66 measures
 ```
 
+The output file that is produced by the code is called:
+```
+  - tidyData1                    --> saved in code as a data frame:  file lists the full 10,299 observations
+  - tidayData2                   --> saved in code as a data frame:  file lists the 180 obs by 66 average readings
+  - average_sensors_measures.txt --> saved to disk and github as a txt/csv file:  same as TidyData2
+```
+
 
 ===========================================================
 #### Transformations overview
