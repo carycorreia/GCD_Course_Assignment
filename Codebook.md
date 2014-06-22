@@ -81,8 +81,10 @@ The basic program flow is as follows:
       - the _carycorreia\GCD_Course_Assignment repository has a copy of this output file
       - I also opted to store it as a .csv document
       - To test that the data is indeed the correct format I would suggest you open it in excel
+
 =======================================================
-========================================================
+#### average_sensor_measures.txt column names and descriptions 
+
 | Variable Name                | Variable Description                                                                                       | Format  | Range              | Units          |
 |------------------------------|------------------------------------------------------------------------------------------------------------|---------|--------------------|----------------|
 | SubjectNumber                | The subject id's that participated in the test                                                             | Integer | 1 to 30            | test subjects  |
