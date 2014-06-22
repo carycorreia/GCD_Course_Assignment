@@ -42,10 +42,10 @@ To make the code easier to read I decided to relabel the files in my code as fol
     Y files -->activity files (activity_test and activity train)
     X files -->reading files  (readings_test and readings train)
 ```
-Because the requirement was to keep only column measures on mean() and std() measures I reduced the columns:
-    - this was accomplished using grep1 and a regex filter lines 64 and 86
-    - note I decided not to keep meanFreq() columns as these were not actual mean readings but frequency readings
-    - The number of mean() and std() columns is only 66 which was verfied manually by reviewing the features.txt file
+Because the requirement was to keep only column measures on mean() and std() measures I reduced the columns: 
+ - this was accomplished using grep1 and a regex filter lines 64 and 86
+ - note I decided not to keep meanFreq() columns as these were not actual mean readings but frequency readings
+ - The number of mean() and std() columns is only 66 which was verfied manually by reviewing the features.txt file
 =================================
 
 #### How the code works
