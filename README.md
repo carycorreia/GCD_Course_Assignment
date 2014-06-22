@@ -22,10 +22,10 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
  5. Appropriately labels the data set with descriptive variable names. 
  6. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-'''
+
 Please note that these objectives are NOT the exact steps that were followed in creating the work flow for this project. Please see the section regarding Code Walk-Through for the psuedo-code used.
-'''
-'''
+
+
 The data used in this project is linked here:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
