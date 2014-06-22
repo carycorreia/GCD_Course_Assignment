@@ -108,6 +108,18 @@ Please note:  the project objectives makes no mention that your code has to achi
 - a "average_sensor_measures.txt" file is saved to the computer
 
 
+Example
+The original image is 128x128 and contains no shadow.
+![Original icon][img-icon_original]
+
+It will be displayed as 96x96 with a subtle shadow.
+![Styled icon][img-icon_styled]
+
+[img-icon_original]: img/icon128.png "B"
+[img-icon_styled]: img/icon128.png "B" width="96px" height="96px"
+class="shadow"
+
+
  
 
 
