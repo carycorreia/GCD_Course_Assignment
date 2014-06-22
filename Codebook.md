@@ -28,6 +28,7 @@ The purpose of the code was to take the following inputs, and create a tidy data
       - I opted to recode the 1-6 activity types using the matching key given in the "activities_labels.txt) file
       - I used 'ply' and 'join' to perform the equivalent of a vlookup to recode the table (lines 67-70)
       - recode file looks like:
+      
 ```
       V1	V2
     1	1	WALKING
