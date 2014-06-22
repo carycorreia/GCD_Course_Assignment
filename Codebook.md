@@ -1,9 +1,9 @@
-##average_sensors_measures.txt CodeBook
+###average_sensors_measures.txt CodeBook
 ========================================================
 
 #### Overview
 This is a markdown Codebook of the final file that was created by the program run_analysis.R
-The purpose of the code was to take the following inputs,
+The purpose of the code was to take the following inputs, and create a tidy data set from it:
   - test inputs:
     -subject_test.txt --> test subject data on 9 of the participants
     -Y_test.txt       --> activity test data...note: these are coded variables from activities 1 to 6
@@ -13,7 +13,7 @@ The purpose of the code was to take the following inputs,
     -Y_train.txt      --> activity train data..note:  these are coded variable from activities 1 to 6
     -X_train.txt      --> measure readings from teh participants  7,352 obs across 66 measures
 
-and to create a tidy data set from it.
+
 ===========================================================
 #### Transformations overview
 The subject_test file lists each participant by number:
