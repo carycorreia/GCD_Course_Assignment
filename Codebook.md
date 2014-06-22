@@ -73,7 +73,6 @@ The basic program flow is as follows:
 ```
   - use regex to clean up names and then assign the cleaned up names to all datasets
   - use regex and grepl to pair down the readings data so it only contains mean and std dev readings
-  - note meanFreq() measures were not inputted because these are frequency (count) measures
   - Combine all data together to create a tidy data set for test data...called it testData (data frame)
 
 #####  3. Prep the train data set
