@@ -80,7 +80,7 @@ The basic program flow is as follows:
   - Final file is labelled....trainData (data frame)
 
 #####  4. Merge or combine the two data sets together
-  - since the two files or partial datasets of the entire dataset it was just necessary to combine both sets of data
+  - since the two files are partial datasets of the entire dataset it was just necessary to combine both sets of data
   - decided to use the merge command would work fairly easily (see code for details)
   - final file which is the tidy data set for the full file --> tidyData1 (10,299 obs across 69 variables)
 ```
