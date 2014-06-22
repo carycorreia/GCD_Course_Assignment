@@ -1,7 +1,69 @@
 ##average_sensors_measures.txt CodeBook
 ========================================================
 
-#### This is an R Markdown document that describes the output dataset that is run from the program run_analysis.R.
+#### Overview
+This is a markdown Codebook of the final file that was created by the program run_analysis.R
+The purpose of the code was to take the following inputs,
+  - test inputs:
+    -subject_test.txt --> test subject data on 9 of the participants
+    -Y_test.txt       --> activity test data...note: these are coded variables from activities 1 to 6
+    -X_test.txt       --> measured readings from the participants  2,947 obs across 66 measures
+  - train inputs:
+    -subject_train.txt--> test subject data on 21 of the participants
+    -Y_train.txt      --> activity train data..note:  these are coded variable from activities 1 to 6
+    -X_train.txt      --> measure readings from teh participants  7,352 obs across 66 measures
+
+and to create a tidy data set from it.
+===========================================================
+#### Transformations overview
+The subject_test file lists each participant by number:
+      - no recoding was deemed necessary as we only had a number given (so data was kept as is)
+      
+The activity data (Y_test) lists the data from 1-6:
+      - I opted to recode the 1-6 activity types using the matching key given in the "activities_labels.txt) file
+      - file looks like:
+      ```
+      V1	V2
+    1	1	WALKING
+    2	2	WALKING_UPSTAIRS
+    3	3	WALKING_DOWNSTAIRS
+    4	4	SITTING
+    5	5	STANDING
+    6	6	LAYING
+    ```
+#### How the code works
+For a detailed walk-thru of the code please consult the README.md file located in the github repository (carycorreia/GCD_Course_Assignment)
+
+The basic program flow is as follows:
+  1. Setup the computers directory structure / download data--> makes it easy to download and retrieve files
+      - input label file & use regex to make the labels meaningful (see code for details)
+  2. Prep the test data set
+      - read in the files and give them better names:
+        - X_test.txt becomes readings.test
+        - Y_test.txt becomes activity.test
+      - use regex to clean up names and then assign the cleaned up names to all datasets
+      - use regex and grep1 to pair down the readings data so it only contains mean and std dev readings
+        - note meanFreq() measures were not inputted because these are frequency (count) measures
+      -Combine all data together to create a tidy data set for test data...called it testData (data frame)
+  3. Prep the train data set
+      - I followed the exact same methodology as laid out in step 2
+      - Final file is labelled....trainData (data frame)
+  4. Merge or combine the two data sets together
+      - since the two files or partial datasets of the entire dataset it was just necessary to combine both sets of data
+      - decided to use the merge command would work fairly easily (see code for details)
+      - final file which is the tidy data set for the full file --> tidyData1 (10,299 obs across 69 variables)
+        - note there is a "SubjectName", "ActivityType", "DataSet" & 66 other column measures in the file 
+        - the "DataSet" column holds a "train" or "test" flag which tells an analyst where each row of data came from
+  5. Create the final tidy data set which gives you the average sensor readings for each subject & activity type
+      - note that there are 30 subjects X 6 activities = 180 observations with 66 average readings
+      - note that in this file I decided to drop the "DataSet" column which yields only 68 columns in the final dataset
+      - final file is called "tidyData2 (data frame)
+  6. Save the final file "tidayData2" to disk
+      - the final file is called "average_sensor_measures.txt"
+      - the _carycorreia\GCD_Course_Assignment repository has a copy of this output file
+      - I also opted to store it as a .csv document
+      - To test that the data is indeed the correct format I would suggest you open it in excel
+=======================================================
 ========================================================
 | Variable Name                | Variable Description                                                                                       | Format  | Range              | Units          |
 |------------------------------|------------------------------------------------------------------------------------------------------------|---------|--------------------|----------------|
