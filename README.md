@@ -72,7 +72,7 @@ Steps 2a-2d - Prep the test data set
 - we have a complete and tidy version of the testing data
 - testData: 2,947 rows 69 variables
  
-Steps 3a-3d - this is an exact duplicate of steps 2...only now we do it for the _train_ dataset 
+Steps 3a-3d - this is an exact duplicate of steps 2...only now we do it for the _train_ dataset  
 #### At the end of Step 3:
 - we have a complete and tidy version of the training data
 - trainData: 7,352 rows 69 variables
@@ -82,7 +82,7 @@ Steps 3a-3d - this is an exact duplicate of steps 2...only now we do it for the 
  
 Step 4- Merge the two datasets together
   - the two files are then merged together
-  - note I decided to use the merge command to just stack the two datasets on top of each other 
+  - note I decided to use the merge command to just stack the two datasets on top of each other  
 #### At the end of Step 4:
 - we have a complete and tidy version of both datasets added together
 - tidyData1: 10,299 rows 69 variables
@@ -90,7 +90,7 @@ Step 4- Merge the two datasets together
  
 Step 5 - Create the average_measures dataset
   - for each Subject and Activity the average of each reading was created
-  - I opted to use the _reshape_ package to first melt then dcast the data into the final table 
+  - I opted to use the _reshape_ package to first melt then dcast the data into the final table  
 #### At the end of Step 5:
 - we have a complete and tidy dataset for the average of the readings for each subject and activity type
 - tidyData2: 180 rows 68 variables
@@ -98,7 +98,7 @@ Step 5 - Create the average_measures dataset
          there are now exaclty 68 rows because I decided to drop the _DataSet_ column
 
 Step 6 - Write the table to a file on the computer
-  - simple write.table command to save the file as a txt file was performed 
+  - simple write.table command to save the file as a txt file was performed  
 #### At the end of Step 6:
 - a "average_sensor_measures.txt" file is saved to the computer
 
