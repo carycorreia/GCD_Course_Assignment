@@ -85,7 +85,7 @@ Step 4- Merge the two datasets together
   - the two files are then merged together
   - note I decided to use the merge command to just stack the two datasets on top of each other 
   - 
-#### At the end of step 4:
+####At the end of step 4:
 - we have a complete and tidy version of both datasets added together
 - tidyData1: 10,299 rows 69 variables
 
@@ -94,7 +94,7 @@ Step 5 - Create the average_measures dataset
   - for each Subject and Activity the average of each reading was created
   - I opted to use the _reshape_ package to first melt then dcast the data into the final table
   - 
-#### At the end of step 5:
+####At the end of step 5:
 - we have a complete andtidy dataset for the average of the readings for each subject and activity type
 - tidyData2: 180 rows 68 variables
 - note:  there exactly 180 rows which corresponds to our 30 test subjects with 6 activities
