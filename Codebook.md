@@ -46,6 +46,7 @@ The purpose of the code was to take the following inputs, and create a tidy data
  - this was accomplished using grep1 and a regex filter lines 64 and 86
  - note I decided not to keep meanFreq() columns as these were not actual mean readings but frequency readings
  - the number of mean() and std() columns is only 66 which was verfied manually by reviewing the features.txt file
+
 =================================
 
 #### How the code works
