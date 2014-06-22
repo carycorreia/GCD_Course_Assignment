@@ -62,10 +62,10 @@ The output files that are produced by the code are called:
 For a detailed walk-thru of the code please consult the README.md file located in the github repository (carycorreia/GCD_Course_Assignment)
 
 The basic program flow is as follows:
-####  1. Setup the directory structure / download data--> makes it easy to download and retrieve files
+#####  1. Setup the directory structure / download data--> makes it easy to download and retrieve files
   - input label file & use regex to make the labels meaningful (see code for details)
 
-####  2. Prep the test data set
+#####  2. Prep the test data set
   - read in the files and give them better names:
 ```
         - X_test.txt becomes readings.test
@@ -76,11 +76,11 @@ The basic program flow is as follows:
   - note meanFreq() measures were not inputted because these are frequency (count) measures
   - Combine all data together to create a tidy data set for test data...called it testData (data frame)
 
-####  3. Prep the train data set
+#####  3. Prep the train data set
   - I followed the exact same methodology as laid out in step 2
   - Final file is labelled....trainData (data frame)
 
-####  4. Merge or combine the two data sets together
+#####  4. Merge or combine the two data sets together
   - since the two files or partial datasets of the entire dataset it was just necessary to combine both sets of data
   - decided to use the merge command would work fairly easily (see code for details)
   - final file which is the tidy data set for the full file --> tidyData1 (10,299 obs across 69 variables)
@@ -89,12 +89,12 @@ The basic program flow is as follows:
         - the "DataSet" column holds a "train" or "test" flag which tells an analyst where each row of data came from
 ```
 
-####  5. Create final tidy data set: the average sensor readings for each subject & activity type
+##### 5. Create final tidy data set: the average sensor readings for each subject & activity type
   - note that there are 30 subjects X 6 activities = 180 observations with 66 average readings
   - note that in this file I decided to drop the "DataSet" column which yields only 68 columns in the final dataset
   - final file is called "tidyData2 (data frame)
 
-####  6. Save the final file "tidyData2" to disk
+#####  6. Save the final file "tidyData2" to disk
   - the final file is called "average_sensor_measures.txt"
   - the _carycorreia\GCD_Course_Assignment repository has a copy of this output file
   - I also opted to store it as a .csv document
