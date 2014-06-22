@@ -22,7 +22,7 @@ The output files that are produced by the code are called:
 ```
   - tidyData1                    --> saved in code as a data frame:  file lists the full 10,299 observations
   - tidayData2                   --> saved in code as a data frame:  file lists the 180 obs by 66 average readings
-  - average_sensors_measures.txt --> saved to disk and github as a txt/csv file:  same as TidyData2
+  - average_sensors_measures.txt --> saved to disk and github as a txt/csv file:  same as tidyData2
 ```
 
 
