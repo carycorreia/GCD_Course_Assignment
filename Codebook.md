@@ -57,6 +57,13 @@ The output files that are produced by the code are called:
  - the number of mean() and std() columns is only 66 which was verfied manually by reviewing the features.txt file
 
 =================================
+### Final naming conventions used in the file
+  - Column 1:       SubjectNumber --> each subject's test number is listed here
+  - Column 2:       ActivityType  --> each activity type is listed here..nb:  the coded value now has the actual name
+  - Column 3 to 68: Each column has the recoded name for the measure
+                    I opted to not append "average of " to each field in order to save space & improve readability
+
+=================================
 
 ### How the code works
 For a detailed walk-thru of the code please consult the README.md file located in the github repository (carycorreia/GCD_Course_Assignment)
