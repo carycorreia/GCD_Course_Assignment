@@ -157,3 +157,4 @@ The basic program flow is as follows:
 | FFT_BodyBodyGyroMag_std      | Average readings of: standard deviation FFT domain signals for body gyroscope magnitude                    | numeric | -1.0000 to +1.0000 | radians/second |
 | FFT_BodyBodyGyroJerkMag_mean | Average readings of: mean FFT domain signals for body gyroscope jerk magnitude                             | numeric | -1.0000 to +1.0000 | radians/second |
 | FFT_BodyBodyGyroJerkMag_std  | Average readings of: standard deviation FFT domain signals for body gyroscope jerk magnitude               | numeric | -1.0000 to +1.0000 | radians/second |
+=======
