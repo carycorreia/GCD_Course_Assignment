@@ -59,11 +59,12 @@ Please note:  the project objectives makes no mention that your code has to achi
   1a - Prep the data structure
   1b - Download and unzip the files
   1c - Setup the directories, get the label files, make the labels descriptive
+```
 #### At the end of step 1:
  - all files have been downloaded and unzipped
  - quick references to all sub-folders have been created
  - all label files have been reworked so that the names are meaningful
-
+```
 #### Steps 2a-2d - Prep the test data set
   2a - Read in all 3 test data files...note I renamed them to be subject, readings and activities
   2b - Fix all columns using regex in the subject and readings tables
@@ -106,19 +107,6 @@ Please note:  the project objectives makes no mention that your code has to achi
 
 #### At the end of step 6:
 - a "average_sensor_measures.txt" file is saved to the computer
-
-
-Example
-The original image is 128x128 and contains no shadow.
-![Original icon][img-icon_original]
-
-It will be displayed as 96x96 with a subtle shadow.
-![Styled icon][img-icon_styled]
-
-[img-icon_original]: img/icon128.png "B"
-[img-icon_styled]: img/icon128.png "B" width="96px" height="96px"
-class="shadow"
-
 
  
 
