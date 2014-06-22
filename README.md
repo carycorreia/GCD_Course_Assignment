@@ -1,4 +1,4 @@
-GCD_Course_Assignment
+##GCD_Course_Assignment
 =====================
 ### Introduction:
 This repository houses the programming assingment for Coursera's Getting and Cleaning Data.
@@ -40,7 +40,7 @@ To do this setup just type this into your R session and substiture your account_
 The project objectives are all achieved but my code works through the objectives in a different order.
 Please note:  the project objectives makes no mention that your code has to achieve the objectives in a specific order.
 
-## Program pseudo-code:
+### Program pseudo-code:
   1. Prepare the directory structure
   2. Prep the test data set
   3. Prep the train data set
@@ -48,7 +48,7 @@ Please note:  the project objectives makes no mention that your code has to achi
   5. Create the average_measures dataset
   6. Write the final file to disk
   
-# Detailed walk thru
+### Detailed walk thru
 Steps 1a-1c - Prepare the directory structures
   1a - Prep the data structure
   1b - Download and unzip the files
