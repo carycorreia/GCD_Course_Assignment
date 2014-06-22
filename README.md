@@ -15,7 +15,7 @@ One of the most exciting areas in all of data science right now is wearable comp
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ### The following are the objectives of the course project:
- 1. create one R script that does the follow-
+ 1. create one R script that does the follow
  2. Merges the training and the test sets to create one data set.
  3. Extracts only the measurements on the mean and standard deviation for each measurement. 
  4. Uses descriptive activity names to name the activities in the data set
@@ -55,9 +55,12 @@ Please note:  the project objectives makes no mention that your code has to achi
   6. Write the final file to disk
 
 ### Detailed walk thru
-#### Steps 1a-1c - Prepare the directory structures  
+#### Steps 1a-1c - Prepare the directory structures:
+
   1a - Prep the data structure 
+  
   1b - Download and unzip the files 
+  
   1c - Setup the directories, get the label files, make the labels descriptive 
  
  #### At the end of step 1:
