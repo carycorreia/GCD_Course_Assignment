@@ -62,7 +62,7 @@ The output files that are produced by the code are called:
 For a detailed walk-thru of the code please consult the README.md file located in the github repository (carycorreia/GCD_Course_Assignment)
 
 The basic program flow is as follows:
-####  1. Setup the computers directory structure / download data--> makes it easy to download and retrieve files
+####  1. Setup the directory structure / download data--> makes it easy to download and retrieve files
   - input label file & use regex to make the labels meaningful (see code for details)
 
 ####  2. Prep the test data set
