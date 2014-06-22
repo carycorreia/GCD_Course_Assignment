@@ -27,7 +27,7 @@ The output files that are produced by the code are called:
 
 
 ===========================================================
-#### Transformations overview
+### Transformations overview
 ##### The subject_test file lists each participant by number:
   - no recoding was deemed necessary as we only had a number given (so data was kept as is)
       
