@@ -34,8 +34,8 @@ One of the most exciting areas in all of data science right now is wearable comp
  6. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 
-### Please note that these objectives are NOT the exact steps that were followed in creating the work flow for this project. 
-### Please see the section regarding Code Walk-Through for the psuedo-code used.
+####P lease note that these objectives are NOT the exact steps that were followed in creating the work flow for this project. 
+#### Please see the section regarding Code Walk-Through for the psuedo-code used.
 
 
 The data used in this project is linked here:
